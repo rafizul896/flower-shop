@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #fceef1;
+}
+
+section {
+    margin-top: 100px;
+}
+
+/* Header section start here */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    height: 105vh;
+}
+
+.header-text {
+    width: 65%;
+}
+
+.header-title {
+    font-size: 70px;
+    font-weight: 800;
+    color: #272727;
+    text-align: start;
+}
+
+.header-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 30px;
+    padding: 30px 0 30px 0;
+    text-align: justify;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 700px;
+    color: #FFF;
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 35px;
+    cursor: pointer;
+}
+
+.header-img img {
+    width: 110%;
+}
+
+/* featured section start here */
+
+
+.featured-title {
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    color: #272727;
+    margin-bottom: 20px;
+}
+
+.featured-description {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 27px;
+}
+
+.featured-flowers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.flower-box1 {
+    width: 464px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 75px 0 75px;
+}
+
+.flower-box1 img {
+    width: 100%;
+}
+
+.flower-box2 {
+    width: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px 47px;
+}
+
+.flower-box2 img {
+    width: 100%;
+}
+
+.flower-box3 {
+    width: 464px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 67px 75px 0 75px;
+}
+
+.flower-box3 img {
+    width: 100%;
+}
+
+.flower-title {
+    display: flex;
+    justify-content: space-around;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/* Service section start here */
+
+.service {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    text-align: center;
+    padding: 85px 85px 85px 0;
+    cursor: pointer;
+}
+
+
+.service-title {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.80);
+    margin-top: 20px;
+}
+
+/* Hot deal section style */
+
+#offer {
+    background-color: #fef6f8;
+}
+
+.hot-deal {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    padding: 100px 0 100px 100px;
+}
+
+.deal-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    text-align: center;
+}
+
+.deal-title span {
+    color: #E55473;
+}
+
+.deal-description {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 28px;
+    color: #626060;
+    margin: 25px 0 25px 0;
+}
+
+.offer-btn {
+    font-size: 18px;
+    font-weight: 700px;
+    color: #FFF;
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    padding: 18px 40px;
+    cursor: pointer;
+    margin-left: 35%;
+}
+
+/* Instagram section */
+
+
+.insta-title {
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    text-align: center;
+    cursor: pointer;
+}
+
+.insta-description {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 30px;
+    margin: 25px 0 48px 0;
+}
+
+.insta-img{
+    display: flex;
+    gap: 20px;
+}
+
+.insta-img img {
+    width: 25%;
+}
