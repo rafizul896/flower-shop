@@ -311,3 +311,47 @@ footer {
     font-weight: 400;
     padding-bottom: 128px;
 }
+
+.hide {
+    display: none;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .header-text {
+        width: 90%;
+    }
+
+    .header-title {
+        font-size: 40px;
+        font-weight: 800;
+        color: #272727;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .header-img{
+        width: 80%;
+    }
+
+    .btn {
+        margin-left: 30%; 
+    }
+
+    .header-description {
+        font-size: 16px;
+    }
+    
+}
