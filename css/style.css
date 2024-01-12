@@ -324,7 +324,7 @@ footer {
 
 @media screen and (max-width: 576px) {
     section {
-        margin-top: 50px;
+        margin-top: 70px;
     }
 
     .container {
@@ -505,23 +505,21 @@ footer {
     
     .latest {
         background-image: url('../Flower Asset/Rectangle\ 9.png');
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         width: 95%;
-        /* height: 450px; */
+        height: 200px;
         display: flex;
         flex-direction: column;
-        /* justify-content: center; */
-        align-items: center;
-        gap: 10px;
-        padding-top: 15px;
+        gap: 15px;
+        padding-top: 50px;
     }
     
     .latest input {
-        width: 150px;
-        height: 30px;
+        width: 170px;
+        height: 40px;
         border-radius: 5px;
-        font-size: 12px;
+        font-size: 13px;
         padding-left: 15px;
     }
 
@@ -532,10 +530,10 @@ footer {
     .sub-btn {
         font-size: 12px;
         border-radius: 5px;
-        padding: 8px 10px;
+        padding: 13px 15px;
         position: relative;
-        bottom: 30px;
-        left: 90px;
+        bottom: 40px;
+        left: 100px;
     }
 }
 
