@@ -81,6 +81,10 @@ nav {
     color: #fff;
 }
 
+#menu-icon {
+    display: none;
+}
+
 
 /* Header section start here */
 
@@ -393,6 +397,25 @@ footer {
         width: 100%;
     }
 
+    /* Navber */
+
+    .navber {
+        padding: 0 15px;
+    }
+
+    .nav-logo h1 {
+        font-size: 30px;
+    }
+
+    #menu-icon {
+        font-size: 50px;
+        display: inline;
+    }
+
+    .hidden {
+        display: none;
+    }
+    /* header */
     .header {
         display: flex;
         flex-direction: column-reverse;
