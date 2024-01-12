@@ -377,7 +377,7 @@ footer {
     }
 
     .flower-box1 {
-        width: 90%;
+        width: 80%;
     }
     
     .flower-box1 img {
@@ -385,7 +385,7 @@ footer {
     }
     
     .flower-box2 {
-        width: 90%;
+        width: 80%;
     }
     
     .flower-box2 img {
@@ -393,7 +393,7 @@ footer {
     }
     
     .flower-box3 {
-        width: 90%;
+        width: 80%;
     }
 
     .featured-title {
@@ -404,5 +404,24 @@ footer {
     
     .featured-description {
         font-size: 16px;
+    }
+
+    /* service */
+
+    .service {
+        flex-direction: column;
+        padding: 50px 0 50px 0;
+    }
+    
+    
+    .service-title {
+        display: flex;
+        justify-content: space-around;
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .service-img {
+        margin-top: 50px;
     }
 }
