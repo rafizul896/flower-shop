@@ -429,12 +429,12 @@ footer {
 
     .hot-deal {
         flex-direction: column-reverse;
-        padding: 50px 10px;
+        padding: 50px 15px;
         gap: 40px;
     }
     
     .deal-title {
-        font-size: 25px;
+        font-size: 20px;
         font-weight: 800;
         color: #272727;
         text-align: center;
@@ -452,8 +452,33 @@ footer {
         font-size: 16px;
     }
 
+    /* instagram */
+
+    .instagram {
+        padding: 0 10px;
+    }
+
     .hot-img img{
         width: 80%;
         margin-left: 35px;
+    }
+
+    .insta-title {
+        font-size: 30px;
+    }
+    
+    .insta-description {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    
+    .insta-img {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    
+    .insta-img img {
+        width: 100%;
     }
 }
