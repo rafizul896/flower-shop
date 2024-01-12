@@ -410,7 +410,7 @@ footer {
 
     .service {
         flex-direction: column;
-        padding: 50px 0 50px 0;
+        padding: 50px 0;
     }
     
     
@@ -423,5 +423,37 @@ footer {
 
     .service-img {
         margin-top: 50px;
+    }
+
+    /* hot deal */
+
+    .hot-deal {
+        flex-direction: column-reverse;
+        padding: 50px 10px;
+        gap: 40px;
+    }
+    
+    .deal-title {
+        font-size: 25px;
+        font-weight: 800;
+        color: #272727;
+        text-align: center;
+    }
+    
+    .deal-title span {
+        color: #E55473;
+    }
+    
+    .deal-description {
+        font-size: 15px;
+    }
+    
+    .offer-btn {
+        font-size: 16px;
+    }
+
+    .hot-img img{
+        width: 80%;
+        margin-left: 35px;
     }
 }
