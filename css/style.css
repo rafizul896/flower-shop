@@ -323,6 +323,10 @@ footer {
 /* Responsive */
 
 @media screen and (max-width: 576px) {
+    section {
+        margin-top: 50px;
+    }
+
     .container {
         width: 100%;
     }
@@ -481,4 +485,57 @@ footer {
     .insta-img img {
         width: 100%;
     }
+
+    /* subscribe */
+
+    .sub-title {
+        font-size: 20px;
+        font-weight: 800;
+        color: #272727;
+        text-align: center;
+        /* margin-bottom: 50px; */
+    }
+    
+    .sub-description {
+        font-size: 12px;
+        font-weight: 400;
+        text-align: center;
+        color: rgba(39, 39, 39, 0.60);
+    }
+    
+    .latest {
+        background-image: url('../Flower Asset/Rectangle\ 9.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 95%;
+        /* height: 450px; */
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 10px;
+        padding-top: 15px;
+    }
+    
+    .latest input {
+        width: 150px;
+        height: 30px;
+        border-radius: 5px;
+        font-size: 12px;
+        padding-left: 15px;
+    }
+
+    .latest input:focus {
+        border: 1px solid #E55473;
+    }
+
+    .sub-btn {
+        font-size: 12px;
+        border-radius: 5px;
+        padding: 8px 10px;
+        position: relative;
+        bottom: 30px;
+        left: 90px;
+    }
 }
+
