@@ -7,6 +7,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
     width: 75%;
     margin: 0 auto;
@@ -19,6 +23,64 @@ header {
 section {
     margin-top: 100px;
 }
+
+/* Navber */
+
+nav {
+    background-color: #ffffff;
+}
+
+.navber {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-items li {
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-items a:hover {
+    color: #f03;
+}
+
+.nav-logo h1 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.nav-logo span {
+    color: #E55473;
+}
+
+.nav-btn button{
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 25px;
+    border-radius: 50px;
+    background: linear-gradient(to top, #d08293,rgb(238, 10, 56));
+}
+
+.nav-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /* Header section start here */
 
