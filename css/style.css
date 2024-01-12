@@ -335,6 +335,7 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         height: auto;
+        gap: 0px;
         padding: 50px 0;
     }
 
@@ -343,7 +344,7 @@ footer {
     }
 
     .header-title {
-        font-size: 35px;
+        font-size: 30px;
         font-weight: 800;
         color: #272727;
         text-align: center;
@@ -454,6 +455,8 @@ footer {
     
     .offer-btn {
         font-size: 16px;
+        position: relative;
+        right: 13px;
     }
 
     /* instagram */
@@ -535,5 +538,29 @@ footer {
         bottom: 40px;
         left: 100px;
     }
+
+    /* footer */
+
+    footer {
+        margin-top: 50px;
+    }
+
+    .footer h1 {
+        color: #FFF;
+        font-size: 35px;
+        padding-top: 70px;
+    }
+    
+    .footer h3 {
+        font-size: 16px;
+        line-height: 25px;
+        padding: 5px 10px 10px 10px;
+    }
+    
+    .footer p {
+        font-size: 12px;
+        padding-bottom: 50px;
+    }
+
 }
 
