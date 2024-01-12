@@ -316,6 +316,10 @@ footer {
     display: none;
 }
 
+.flower-name {
+    display: none;
+}
+
 /* Responsive */
 
 @media screen and (max-width: 576px) {
@@ -335,7 +339,7 @@ footer {
     }
 
     .header-title {
-        font-size: 40px;
+        font-size: 35px;
         font-weight: 800;
         color: #272727;
         text-align: center;
@@ -353,5 +357,52 @@ footer {
     .header-description {
         font-size: 16px;
     }
+
+    .flower-name {
+        display: inline;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 5px;
+        cursor: pointer;
+    }
     
+    .flower-title{
+        display: none;
+    }
+
+    .featured-flowers {
+        flex-direction: column;
+    }
+
+    .flower-box1 {
+        width: 90%;
+    }
+    
+    .flower-box1 img {
+        width: 100%;
+    }
+    
+    .flower-box2 {
+        width: 90%;
+    }
+    
+    .flower-box2 img {
+        width: 100%;
+    }
+    
+    .flower-box3 {
+        width: 90%;
+    }
+
+    .featured-title {
+        font-size: 28px;
+        font-weight: 800;
+        text-align: center;
+    }
+    
+    .featured-description {
+        font-size: 16px;
+    }
 }
